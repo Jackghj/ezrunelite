@@ -8,7 +8,7 @@ import net.runelite.client.ui.overlay.OverlayManager;
 @PluginDescriptor(
     name = "True Vision",
     description = "Highlights the area around the player",
-    tags = {"highlight", "overlay", "area", "player"}
+    tags = {"highlight", "overlay", "area", "jack", "player"}
 )
 public class TrueVisionPlugin extends Plugin
 {

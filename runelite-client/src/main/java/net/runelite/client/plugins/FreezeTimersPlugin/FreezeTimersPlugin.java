@@ -16,7 +16,7 @@ import java.util.Map;
 @PluginDescriptor(
     name = "Freeze Timers",
     description = "Displays timers for various freezing and binding spells",
-    tags = {"freeze", "timers", "overlay", "pvp", "pvm"}
+    tags = {"freeze", "timers", "overlay", "pvp", "jack", "pvm"}
 )
 public class FreezeTimersPlugin extends Plugin {
     private static final int ICE_BLITZ_GRAPHIC_ID = 367;
