@@ -1070,7 +1070,7 @@ public class CrypticClue extends ClueScroll implements NpcClueScroll, ObjectClue
 		CrypticClue.builder()
 			.text("A ring of water surrounds 4 powerful rings, dig above the ladder located there.")
 			.location(new WorldPoint(1910, 4367, 0))
-			.solution("Dig by the ladder leading to the Dagannoth Kings room in the Waterbirth Island Dungeon. Bring a pet rock and rune thrownaxe.")
+			.solution("Dig by the ladder leading to the Dagannoth Kings room in the Waterbirth Island Dungeon. Bring a pet rock and rune thrownaxe OR have 85 agility.")
 			.build(),
 		CrypticClue.builder()
 			.text("This place sure is a mess.")
@@ -1108,7 +1108,7 @@ public class CrypticClue extends ClueScroll implements NpcClueScroll, ObjectClue
 		CrypticClue.builder()
 			.text("If you're feeling brave, dig beneath the dragon's eye.")
 			.location(new WorldPoint(2410, 4714, 0))
-			.solution("Dig below the mossy rock under the Viyeldi caves (Legend's Quest). Items needed: Pickaxe, unpowered orb, lockpick, spade, any charge orb spell, and either 79 agility or an axe and machete.")
+			.solution("Dig below the mossy rock under the Viyeldi caves (Legend's Quest). Items needed: Pickaxe, unpowered orb, lockpick, spade, any charge orb spell, and either 79 agility or an axe and machete. With 96 agility no items are needed.")
 			.build(),
 		CrypticClue.builder()
 			.text("Search the tents in the Imperial Guard camp in Burthorpe for some boxes.")
@@ -1690,6 +1690,24 @@ public class CrypticClue extends ClueScroll implements NpcClueScroll, ObjectClue
 			.text("The Big High War God left his mark on this place.")
 			.location(new WorldPoint(3572, 4372, 0))
 			.solution("Dig anywhere in Yu'biusk. Fairy ring BLQ.")
+			.build(),
+		CrypticClue.builder()
+			.text("Search the Bookshelf with a skull on it inside the Burrow.")
+			.location(new WorldPoint(1569, 9460, 0))
+			.objectId(ObjectID.BOOKSHELF_51736)
+			.solution("Search the bookshelf in the basement of the Hunter Guild.")
+			.build(),
+		CrypticClue.builder()
+			.text("Are you somewhat entertained?")
+			.location(new WorldPoint(1802, 9504, 0))
+			.npc("Gloria")
+			.solution("Speak to Gloria inside the Fortis Colosseum")
+			.build(),
+		CrypticClue.builder()
+			.text("With drinks and dwarves I make my way, upon my head a glass will stay.")
+			.location(new WorldPoint(1432, 9584, 0))
+			.npc("Funbo")
+			.solution("Speak to Funbo inside Cam Torum's pub.")
 			.build()
 	);
 
