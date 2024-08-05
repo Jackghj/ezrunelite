@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2018, Adam <Adam@sigterm.info>
+ * Copyright (c) 2023, jocopa3
+ * Copyright (c) 2024, Adam <Adam@sigterm.info>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -22,47 +23,41 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.runelite.client.plugins.animsmoothing;
+package net.runelite.client.events;
 
-import net.runelite.client.config.Config;
-import net.runelite.client.config.ConfigGroup;
-import net.runelite.client.config.ConfigItem;
+import java.util.Collections;
+import java.util.Map;
+import lombok.NonNull;
+import lombok.Value;
 
-@ConfigGroup(AnimationSmoothingPlugin.CONFIG_GROUP)
-public interface AnimationSmoothingConfig extends Config
+/**
+ * An event pluginhub plugins can use to send data to each other.
+ */
+@Value
+public class PluginMessage
 {
+	/**
+	 * Event namespace. This should usually be a unique string representing your plugin name eg. "tombs-of-amascut"
+	 */
+	String namespace;
+	/**
+	 * Event name. This should represent what the event is for, eg "points".
+	 */
+	String name;
+	/**
+	 * Event data.
+	 */
+	Map<String, Object> data;
 
-	@ConfigItem(
-		keyName = "smoothPlayerAnimations",
-		name = "Smooth Player Animations",
-		description = "Configures whether the player animations are smooth or not",
-		position = 1
-	)
-	default boolean smoothPlayerAnimations()
+	public PluginMessage(@NonNull String namespace, @NonNull String name)
 	{
-		return true;
+		this(namespace, name, Collections.emptyMap());
 	}
 
-	@ConfigItem(
-		keyName = "smoothNpcAnimations",
-		name = "Smooth NPC Animations",
-		description = "Configures whether the npc animations are smooth or not",
-		position = 2
-	)
-	default boolean smoothNpcAnimations()
+	public PluginMessage(@NonNull String namespace, @NonNull String name, @NonNull Map<String, Object> data)
 	{
-		return true;
+		this.namespace = namespace;
+		this.name = name;
+		this.data = data;
 	}
-
-	@ConfigItem(
-		keyName = "smoothObjectAnimations",
-		name = "Smooth Object Animations",
-		description = "Configures whether the object animations are smooth or not",
-		position = 3
-	)
-	default boolean smoothObjectAnimations()
-	{
-		return true;
-	}
-
 }

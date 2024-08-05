@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019, Adam <Adam@sigterm.info>
+ * Copyright (c) 2019, TheStonedTurtle <https://github.com/TheStonedTurtle>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -22,13 +22,22 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.runelite.api.events;
 
+package net.runelite.client.plugins.kotoriutils.rlapi.table;
+
+import lombok.Builder;
 import lombok.Data;
-import net.runelite.api.HealthBar;
+
+import java.awt.*;
+import java.util.Collections;
+import java.util.List;
 
 @Data
-public class PostHealthBar
+@Builder
+public class TableRow
 {
-	private HealthBar healthBar;
+    Color rowColor;
+    TableAlignment rowAlignment;
+    @Builder.Default
+    List<TableElement> elements = Collections.emptyList();
 }

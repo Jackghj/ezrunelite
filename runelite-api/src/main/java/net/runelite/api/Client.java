@@ -28,9 +28,11 @@ import com.jagex.oldscape.pub.OAuthApi;
 import java.awt.Canvas;
 import java.awt.Dimension;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.Map;
+import java.util.function.IntPredicate;
 import java.util.stream.Collectors;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -1583,47 +1585,8 @@ public interface Client extends OAuthApi, GameEngine
 	 */
 	NPC getHintArrowNpc();
 
-	/**
-	 * Checks whether animation smoothing is enabled for players.
-	 *
-	 * @return true if player animation smoothing is enabled, false otherwise
-	 */
-	boolean isInterpolatePlayerAnimations();
-
-	/**
-	 * Sets the animation smoothing state for players.
-	 *
-	 * @param interpolate the new smoothing state
-	 */
-	void setInterpolatePlayerAnimations(boolean interpolate);
-
-	/**
-	 * Checks whether animation smoothing is enabled for NPC.
-	 *
-	 * @return true if NPC animation smoothing is enabled, false otherwise
-	 */
-	boolean isInterpolateNpcAnimations();
-
-	/**
-	 * Sets the animation smoothing state for NPCs.
-	 *
-	 * @param interpolate the new smoothing state
-	 */
-	void setInterpolateNpcAnimations(boolean interpolate);
-
-	/**
-	 * Checks whether animation smoothing is enabled for objects.
-	 *
-	 * @return true if object animation smoothing is enabled, false otherwise
-	 */
-	boolean isInterpolateObjectAnimations();
-
-	/**
-	 * Sets the animation smoothing state for objects.
-	 *
-	 * @param interpolate the new smoothing state
-	 */
-	void setInterpolateObjectAnimations(boolean interpolate);
+	IntPredicate getAnimationInterpolationFilter();
+	void setAnimationInterpolationFilter(IntPredicate filter);
 
 	@VisibleForDevtools
 	int[] getBoostedSkillLevels();
@@ -2054,6 +2017,18 @@ public interface Client extends OAuthApi, GameEngine
 	WorldView getTopLevelWorldView();
 
 	/**
+	 * Whether camera shaking effects are disabled at e.g. Barrows, ToA
+	 * @return
+	 */
+	boolean isCameraShakeDisabled();
+
+	/**
+	 * Set whether to disable camera shaking effects at e.g. Barrows, ToA
+	 * @param disabled
+	 */
+	void setCameraShakeDisabled(boolean disabled);
+
+	/**
 	 * Contains a 3D array of template chunks for instanced areas.
 	 * <p>
 	 * The array returned is of format [z][x][y], where z is the
@@ -2074,10 +2049,7 @@ public interface Client extends OAuthApi, GameEngine
 	 * @see InstanceTemplates
 	 */
 	@Deprecated
-	default int[][][] getInstanceTemplateChunks()
-	{
-		return getTopLevelWorldView().getScene().getInstanceTemplateChunks();
-	}
+	int[][][] getInstanceTemplateChunks();
 
 	/**
 	 * Returns a 2D array containing XTEA encryption keys used to decrypt
@@ -2114,7 +2086,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default Scene getScene()
 	{
-		return getTopLevelWorldView().getScene();
+		var wv = getTopLevelWorldView();
+		return wv == null ? null : wv.getScene();
 	}
 
 	/**
@@ -2125,7 +2098,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default List<Player> getPlayers()
 	{
-		return getTopLevelWorldView().players()
+		var wv = getTopLevelWorldView();
+		return wv == null ? Collections.emptyList() : wv.players()
 			.stream()
 			.collect(Collectors.toCollection(ArrayList::new));
 	}
@@ -2138,7 +2112,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default List<NPC> getNpcs()
 	{
-		return getTopLevelWorldView().npcs()
+		var wv = getTopLevelWorldView();
+		return wv == null ? Collections.emptyList() : wv.npcs()
 			.stream()
 			.collect(Collectors.toCollection(ArrayList::new));
 	}
@@ -2151,7 +2126,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default NPC[] getCachedNPCs()
 	{
-		return getTopLevelWorldView().npcs().getSparse();
+		var wv = getTopLevelWorldView();
+		return wv == null ? new NPC[0] : wv.npcs().getSparse();
 	}
 
 	/**
@@ -2162,7 +2138,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default Player[] getCachedPlayers()
 	{
-		return getTopLevelWorldView().players().getSparse();
+		var wv = getTopLevelWorldView();
+		return wv == null ? new Player[0] : wv.players().getSparse();
 	}
 
 	/**
@@ -2232,7 +2209,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default int getBaseX()
 	{
-		return getTopLevelWorldView().getBaseX();
+		var wv = getTopLevelWorldView();
+		return wv == null ? 0 : wv.getBaseX();
 	}
 
 	/**
@@ -2246,7 +2224,8 @@ public interface Client extends OAuthApi, GameEngine
 	@Deprecated
 	default int getBaseY()
 	{
-		return getTopLevelWorldView().getBaseY();
+		var wv = getTopLevelWorldView();
+		return wv == null ? 0 : wv.getBaseY();
 	}
 
 	/**

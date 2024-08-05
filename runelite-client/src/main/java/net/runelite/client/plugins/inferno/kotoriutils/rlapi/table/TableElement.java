@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019, Adam <Adam@sigterm.info>
+ * Copyright (c) 2019, TheStonedTurtle <https://github.com/TheStonedTurtle>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -22,15 +22,19 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.runelite.api;
 
-public interface HealthBar
+package net.runelite.client.plugins.kotoriutils.rlapi.table;
+
+import lombok.Builder;
+import lombok.Data;
+
+import java.awt.*;
+
+@Data
+@Builder
+public class TableElement
 {
-	SpritePixels getHealthBarFrontSprite();
-
-	SpritePixels getHealthBarBackSprite();
-
-	int getHealthBarFrontSpriteId();
-
-	void setPadding(int padding);
+    TableAlignment alignment;
+    Color color;
+    String content;
 }
