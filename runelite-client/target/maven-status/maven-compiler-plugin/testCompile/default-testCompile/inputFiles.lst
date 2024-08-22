@@ -16,7 +16,6 @@ C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\clie
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\hotcold\HotColdSolverTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\skillcalculator\CalculatorTypeTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\specialcounter\SpecialWeaponTest.java
-C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\timers\TimersPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cannon\CannonPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\chatcommands\ChatCommandsPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\EmoteClueTest.java
@@ -59,6 +58,8 @@ C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\clie
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\idlenotifier\IdleNotifierPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\wintertodt\WintertodtPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\hotcold\BeginnerHotColdLocationTest.java
+C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\timersandbuffs\ElapsedTimerTest.java
+C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\timersandbuffs\TimersAndBuffsPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\worldmap\MinigameLocationTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\opponentinfo\OpponentInfoPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\worldmap\FairyRingLocationTest.java
@@ -114,6 +115,5 @@ C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\clie
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\skillcalculator\SkillCalculatorTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\discord\DiscordStateTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\puzzlesolver\lightbox\LightboxSolverTest.java
-C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\timers\ElapsedTimerTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\worldmap\TeleportLocationDataTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\CrypticClueTest.java

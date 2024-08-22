@@ -105,9 +105,11 @@ net\runelite\client\plugins\hallowedsepulchre\HallowedSepulchrePlugin.class
 net\runelite\client\plugins\nex\WidgetIDExt$LevelUp.class
 net\runelite\client\plugins\nex\NexMinion.class
 net\runelite\client\plugins\inferno\InfernoPlugin.class
+net\runelite\client\plugins\timersandbuffs\GameTimer.class
 net\runelite\client\plugins\inferno\InfernoNPC.class
 net\runelite\client\plugins\zulrahoverlay\constants\StandLocation.class
 net\runelite\client\plugins\inferno\InfernoNPC$1.class
+net\runelite\client\plugins\timersandbuffs\TimerTimer.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$SettingsSide.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$LightBox.class
 net\runelite\client\plugins\toa\Room.class
@@ -217,6 +219,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$HallowedSepulchreTimer.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$KourendFavour.class
 net\runelite\client\plugins\coxhelper\CoxDebugBox.class
 net\runelite\client\plugins\toa\Util\GUIOverlayUtil.class
+net\runelite\client\plugins\timersandbuffs\ElapsedTimer.class
 net\runelite\client\plugins\banktags\tabs\LayoutManager$PluginAutoLayout.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$SpellBook.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$DialogSprite.class
@@ -227,6 +230,7 @@ net\runelite\client\plugins\nightmare\WidgetIDExt.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Diary.class
 net\runelite\client\plugins\kotoriutils\rlapi\Spells.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Skills.class
+net\runelite\client\plugins\timersandbuffs\TimersAndBuffsPlugin$1.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$BankPin.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Shop.class
 net\runelite\client\plugins\zulrahoverlay\overlays\PhaseOverlay.class
@@ -275,6 +279,7 @@ net\runelite\client\plugins\itempricesapi\ItemPricesAPIPanel.class
 net\runelite\client\plugins\inferno\displaymodes\InfernoPrayerDisplayMode.class
 net\runelite\client\plugins\inferno\displaymodes\InfernoNamingDisplayMode.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$GrandExchange.class
+net\runelite\client\plugins\timersandbuffs\TimersAndBuffsPlugin.class
 net\runelite\client\plugins\nex\WidgetIDExt$SettingsSide.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$LogoutPanel.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Settings.class
@@ -348,6 +353,7 @@ net\runelite\client\plugins\nex\timer\Action.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$RuinousPrayers.class
 net\runelite\client\plugins\nex\NexOverlayAction.class
 net\runelite\client\plugins\AoeWarn\GraphicIDExtended.class
+net\runelite\client\plugins\timersandbuffs\BuffCounter.class
 net\runelite\client\plugins\kotoriutils\methods\VarUtilities$1.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$TemporossStatus.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$KillLog.class
@@ -399,6 +405,7 @@ net\runelite\client\plugins\nightmare\NightmareAttack.class
 net\runelite\client\plugins\nex\WidgetIDExt$Tob.class
 net\runelite\client\plugins\nex\WidgetIDExt$Bank.class
 net\runelite\client\plugins\nex\WidgetIDExt$StandardSpellBook.class
+net\runelite\client\plugins\timersandbuffs\GameTimerImageType.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$SeedVault.class
 net\runelite\client\plugins\toa\Kephri\KephriDangerTile.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Skills.class
@@ -468,6 +475,7 @@ net\runelite\client\plugins\nex\maths\MathUtil.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$GuidePrices.class
 net\runelite\client\plugins\AoeWarn\AoeProjectileInfo.class
 net\runelite\client\plugins\banktags\tabs\LayoutManager$DefaultLayout.class
+net\runelite\client\plugins\timersandbuffs\GameCounter.class
 net\runelite\client\plugins\skillcalculator\skills\PrayerAction$PrayerMethod.class
 net\runelite\client\plugins\loottracker\PluginLootReceived$PluginLootReceivedBuilder.class
 net\runelite\client\plugins\nex\WidgetIDExt$ChambersOfXericStorageUnitPrivate.class
@@ -525,6 +533,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$VarrockMuseum.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$ClanGuest.class
 net\runelite\client\plugins\coxhelper\Victim$Type.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$Shop.class
+net\runelite\client\plugins\timersandbuffs\GameCounter$ColorBoundaryType.class
 net\runelite\client\plugins\kotoriutils\KotoriUtilsConfig.class
 net\runelite\client\plugins\zulrahoverlay\overlays\PrayerHelperOverlay.class
 net\runelite\client\plugins\nex\WidgetIDExt$ResizableViewport.class
@@ -557,6 +566,7 @@ net\runelite\client\plugins\toa\Prayer\WidgetIDExt$BankPin.class
 net\runelite\client\plugins\kotoriutils\methods\NPCInteractions.class
 net\runelite\client\plugins\kotoriutils\methods\BreadthFirstSearch.class
 net\runelite\client\plugins\AoeWarn\ColorUtil.class
+net\runelite\client\plugins\timersandbuffs\TimersAndBuffsConfig.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$FairyRingCode.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$ExplorersRing.class
 net\runelite\client\plugins\kotoriutils\overlay\OverlayUtility.class

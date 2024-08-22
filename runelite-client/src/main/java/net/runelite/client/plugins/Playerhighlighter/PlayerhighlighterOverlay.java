@@ -65,8 +65,8 @@ public class PlayerhighlighterOverlay extends Overlay {
 
         List<Integer> itemPrices = new ArrayList<>();
         for (int itemId : player.getPlayerComposition().getEquipmentIds()) {
-            if (itemId > 512) {
-                itemId -= 512;
+            if (itemId > 2048) { // Changed from -512 August
+                itemId -= 2048; // Changed from -512 August
                 itemPrices.add(itemManager.getItemPrice(itemId));
             }
         }
