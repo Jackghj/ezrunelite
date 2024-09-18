@@ -35,7 +35,7 @@ import javax.inject.Inject;
 	name = "Tombs",
 	enabledByDefault = false,
 	description = "Fun plug",
-	tags = {"bosses", "combat", "overlay", "pve", "pvm", "tombs"}
+	tags = {"bosses", "combat", "overlay", "pve", "pvm", "jack", "tombs"}
 )
 
 @Slf4j

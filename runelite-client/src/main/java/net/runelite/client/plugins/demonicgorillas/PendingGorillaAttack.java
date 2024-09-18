@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018, Seth <Sethtroll3@gmail.com>
+ * Copyright (c) 2018, Woox <https://github.com/wooxsolo>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -22,53 +22,31 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.runelite.client.plugins.motherlode;
+package net.runelite.client.plugins.demonicgorillas;
 
-import java.time.Duration;
-import java.time.Instant;
-import javax.inject.Singleton;
+import lombok.AccessLevel;
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
+import net.runelite.api.Player;
 
-@Getter
-@Slf4j
-@Singleton
-class MotherlodeSession
+class PendingGorillaAttack
 {
-	private static final long HOUR = Duration.ofHours(1).toMillis();
+	@Getter(AccessLevel.PACKAGE)
+	private DemonicGorilla attacker;
 
-	private int perHour;
+	@Getter(AccessLevel.PACKAGE)
+	private DemonicGorilla.AttackStyle attackStyle;
 
-	private Instant lastPayDirtMined;
-	private int totalMined;
+	@Getter(AccessLevel.PACKAGE)
+	private Player target;
 
-	private Instant recentPayDirtMined;
-	private int recentMined;
+	@Getter(AccessLevel.PACKAGE)
+	private int finishesOnTick;
 
-	public void incrementPayDirtMined()
+	PendingGorillaAttack(final DemonicGorilla attacker, final DemonicGorilla.AttackStyle attackStyle, final Player target, final int finishesOnTick)
 	{
-		Instant now = Instant.now();
-
-		lastPayDirtMined = now;
-		++totalMined;
-
-		if (recentMined == 0)
-		{
-			recentPayDirtMined = now;
-		}
-		++recentMined;
-
-		Duration timeSinceStart = Duration.between(recentPayDirtMined, now);
-		if (!timeSinceStart.isZero())
-		{
-			perHour = (int) ((double) recentMined * HOUR / timeSinceStart.toMillis());
-		}
+		this.attacker = attacker;
+		this.attackStyle = attackStyle;
+		this.target = target;
+		this.finishesOnTick = finishesOnTick;
 	}
-
-	public void resetRecent()
-	{
-		recentPayDirtMined = null;
-		recentMined = 0;
-	}
-
 }
