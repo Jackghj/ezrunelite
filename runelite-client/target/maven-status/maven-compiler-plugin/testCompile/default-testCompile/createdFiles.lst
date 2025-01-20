@@ -45,8 +45,10 @@ net\runelite\client\plugins\motherlode\MotherlodePluginTest.class
 net\runelite\client\plugins\cluescrolls\clues\hotcold\MasterHotColdLocationTest.class
 net\runelite\client\ui\overlay\infobox\InfoBoxManagerTest.class
 net\runelite\client\plugins\timestamp\TimestampPluginTest.class
+net\runelite\client\plugins\interfacestyles\HealthbarOverrideTest.class
 net\runelite\client\plugins\woodcutting\WoodcuttingPluginTest.class
 net\runelite\client\plugins\cluescrolls\clues\ConfigKeyTest.class
+net\runelite\client\plugins\runecraft\EssencePouchOverlayTest.class
 net\runelite\client\plugins\attackstyles\AttackStylesPluginTest.class
 net\runelite\client\plugins\worldmap\TeleportLocationDataTest.class
 net\runelite\client\plugins\timersandbuffs\ElapsedTimerTest.class
@@ -97,6 +99,7 @@ net\runelite\client\plugins\opponentinfo\OpponentInfoPluginTest.class
 net\runelite\client\plugins\hiscore\HiscorePanelTest.class
 net\runelite\client\plugins\itemstats\ItemStatEffectTest.class
 net\runelite\client\plugins\screenshot\ScreenshotPluginTest.class
+net\runelite\client\game\ItemStatsTest.class
 net\runelite\client\plugins\cluescrolls\clues\hotcold\HotColdSolverTest.class
 net\runelite\client\game\ItemMappingTest.class
 net\runelite\client\plugins\xptracker\XpTrackerPluginTest.class

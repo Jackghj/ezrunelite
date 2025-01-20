@@ -5,6 +5,7 @@ C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\clie
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\gpu\template\TemplateTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\kourendlibrary\LibraryTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\runenergy\RunEnergyPluginTest.java
+C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\interfacestyles\HealthbarOverrideTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\AnagramClueTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\ConfigKeyTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\skybox\SkyboxTest.java
@@ -14,6 +15,7 @@ C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\clie
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\config\PluginSearchTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\config\TestConfig.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cluescrolls\clues\hotcold\HotColdSolverTest.java
+C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\game\ItemStatsTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\skillcalculator\CalculatorTypeTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\specialcounter\SpecialWeaponTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\cannon\CannonPluginTest.java
@@ -49,6 +51,7 @@ C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\clie
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\fishing\FishingPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\timetracking\clocks\ClockPanelTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\grandexchange\GrandExchangePluginTest.java
+C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\runecraft\EssencePouchOverlayTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\specialcounter\SpecialCounterPluginTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\plugins\keyremapping\KeyRemappingListenerTest.java
 C:\Users\Jack\Desktop\test2 Juli\runelite-client\src\test\java\net\runelite\client\chat\ChatMessageManagerTest.java

@@ -52,11 +52,9 @@ public class PlayerhighlighterOverlay extends Overlay {
     }
 
     private boolean isPlayerSkulled(Player player) {
-        SkullIcon skull = player.getSkullIcon();
-        // General check for a skull icon, assumes any skulled state is relevant.
-        // This doesn't distinguish between different types of skulls like keys or bounty hunter,
-        // as specific enums might not be available for each case.
-        return skull != null;
+        int skull = player.getSkullIcon();
+        // -1 indicates no skull icon
+        return skull != -1;
     }
 
     private long calculateTotalEquipmentValue(Player player) {

@@ -2,6 +2,7 @@ net\runelite\client\plugins\toa\Warden\WardenPosition.class
 net\runelite\client\plugins\skillcalculator\skills\SmithingBonus.class
 net\runelite\client\plugins\zulrahoverlay\overlays\SceneOverlay.class
 net\runelite\client\plugins\hallowedhelper\HallowedHelperConfig$RenderDistance.class
+net\runelite\client\game\ItemEquipmentStats$ItemEquipmentStatsBuilder.class
 net\runelite\client\plugins\toa\ToaConfig.class
 net\runelite\client\plugins\nex\NexConfig$PrayerDisplay.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$EquipmentWidgetIdentifiers.class
@@ -60,6 +61,7 @@ net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$ResizableViewport.cla
 net\runelite\client\plugins\CoxHelperMini\CoxHelperMiniConfig.class
 net\runelite\client\plugins\nex\WidgetIDExt$TemporossStatus.class
 net\runelite\client\plugins\playerlogger\PlayerLoggerPanel$1.class
+net\runelite\client\plugins\runecraft\EssencePouchOverlay$EssPouch.class
 net\runelite\client\plugins\nex\WidgetIDExt$AchievementDiaryScroll.class
 net\runelite\client\plugins\nex\WidgetIDExt$DepositBox.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$BankPin.class
@@ -71,7 +73,6 @@ net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$LevelUp.class
 net\runelite\client\plugins\hallowedsepulchre\HallowedSepulchreWizardStatue.class
 net\runelite\client\plugins\inferno\InfernoWaveOverlay.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$GrandExchange.class
-net\runelite\client\plugins\demonicgorillas\DemonicGorillaOverlay$1.class
 net\runelite\client\plugins\zulrahoverlay\overlays\PhaseOverlay$1.class
 net\runelite\client\plugins\toa\Util\Table\TableRow$TableRowBuilder.class
 net\runelite\client\plugins\AoeWarn\AoeWarningOverlay.class
@@ -93,6 +94,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$Health.class
 net\runelite\client\plugins\nightmare\SanfewInfoBox.class
 net\runelite\client\plugins\nex\movement\MovementUtil.class
 net\runelite\client\plugins\nex\NexPlugin.class
+net\runelite\client\plugins\usernotifier\UserNotifierPlugin$1.class
 net\runelite\client\plugins\usernotifier\UserNotifierPlugin.class
 net\runelite\client\plugins\nightmare\WidgetInfoExt.class
 net\runelite\client\plugins\coxhelper\OlmAnimation.class
@@ -127,6 +129,7 @@ net\runelite\client\plugins\nightmare\WidgetIDExt$Lms.class
 net\runelite\client\plugins\menuentryswapper\TeleportSub.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Barrows.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$BarbarianAssault$HLR.class
+net\runelite\client\plugins\statusbars\StatusBarsConfig$BarMode.class
 net\runelite\client\plugins\specialcounter\PlayerInfoDrop$PlayerInfoDropBuilder.class
 net\runelite\client\plugins\toa\Zebak\Zebak.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$GroupStorage.class
@@ -148,6 +151,7 @@ net\runelite\client\plugins\toa\reflectPackMeth.class
 net\runelite\client\plugins\skillcalculator\skills\PrayerBonus$1.class
 net\runelite\client\plugins\AoeWarn\BombOverlay.class
 net\runelite\client\plugins\specialcounter\SpecialWeapon$1.class
+net\runelite\client\plugins\worldhopper\WorldTypeFilter$9.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$LoginClickToPlayScreen.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$GenericScroll.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$LogoutPanel.class
@@ -160,6 +164,7 @@ net\runelite\client\plugins\zulrahoverlay\constants\Constants.class
 net\runelite\client\plugins\toa\Prayer\PrayerOverlay.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$AchievementDiaryScroll.class
 net\runelite\client\plugins\kotoriutils\methods\MiscUtilities.class
+net\runelite\client\game\ItemStats.class
 net\runelite\client\plugins\AoeWarn\AoeWarningPlugin$1.class
 net\runelite\client\plugins\nex\WidgetIDExt$DialogNPC.class
 net\runelite\client\plugins\coxhelper\CoxOverlay$1.class
@@ -175,6 +180,7 @@ net\runelite\client\plugins\CoxHelperMini\OlmConstants.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$FixedViewport.class
 net\runelite\client\plugins\coxhelper\CoxInfoBox$1.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Smithing.class
+net\runelite\client\plugins\npchighlight\NpcIndicatorsConfig$MenuHighlightStyle.class
 net\runelite\client\plugins\nightmare\NightmareConfig$1.class
 net\runelite\client\plugins\toa\Zebak\ZebakPrayerBoxOverlay.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Equipment.class
@@ -182,6 +188,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$GauntletTimer.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$LootingBag.class
 net\runelite\client\plugins\worldhopper\WorldTypeFilter$8.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetInfoPlus.class
+net\runelite\client\plugins\grounditems\config\OwnershipFilterMode.class
 net\runelite\client\plugins\toa\Warden\WardenOverlayBox.class
 net\runelite\client\plugins\nex\NexPhase.class
 net\runelite\client\plugins\coxhelper\CoxOverlay.class
@@ -207,6 +214,7 @@ net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$Options.class
 net\runelite\client\plugins\kotoriutils\rlapi\table\TableElement.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$ResizableViewportBottomLine.class
 net\runelite\client\plugins\nex\WidgetIDExt$Equipment.class
+net\runelite\client\plugins\itemstats\food\CookedMossLizard.class
 net\runelite\client\plugins\toa\Util\InterfaceTab.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$KourendFavour.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$QuestList.class
@@ -236,8 +244,8 @@ net\runelite\client\plugins\nightmare\WidgetIDExt$Skills.class
 net\runelite\client\plugins\timersandbuffs\TimersAndBuffsPlugin$1.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$BankPin.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Shop.class
-net\runelite\client\plugins\demonicgorillas\PendingGorillaAttack.class
 net\runelite\client\plugins\zulrahoverlay\overlays\PhaseOverlay.class
+net\runelite\client\game\ItemEquipmentStats.class
 net\runelite\client\plugins\coxhelper\Olm$1.class
 net\runelite\client\plugins\toa\ToaConfig$reflectChoices.class
 net\runelite\client\plugins\toa\Util\Table\TableElement.class
@@ -308,9 +316,11 @@ net\runelite\client\plugins\toa\Warden\WardenOverlay.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$WorldMap.class
 net\runelite\client\plugins\skillcalculator\skills\FiremakingAction$1.class
 net\runelite\client\plugins\nex\WidgetIDExt$Raids.class
+net\runelite\client\plugins\itemstats\food\CookedBream.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$QuestCompleted.class
 net\runelite\client\plugins\inferno\InfernoWaveMappings.class
 net\runelite\client\plugins\nex\WidgetIDExt$QuestCompleted.class
+net\runelite\client\plugins\runecraft\EssencePouchOverlay.class
 net\runelite\client\plugins\zulrahoverlay\ZulrahConfig$DisplayMode.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$ResizableViewport.class
 net\runelite\client\plugins\CoxHelperMini\CoxHelperMiniOverlay.class
@@ -328,6 +338,7 @@ net\runelite\client\plugins\coxhelper\ProjectileID.class
 net\runelite\client\plugins\nex\WidgetIDExt$ExperienceTracker.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Raids.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$WorldMap.class
+net\runelite\client\plugins\itemstats\potions\MoonlightPotion.class
 net\runelite\client\plugins\kotoriutils\ReflectionLibrary.class
 net\runelite\client\plugins\toa\Prayer\PrayerBoxOverlay.class
 net\runelite\client\plugins\zulrahoverlay\overlays\InstanceTimerOverlay.class
@@ -337,6 +348,7 @@ net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Minigames.class
 net\runelite\client\plugins\coxhelper\Text.class
 net\runelite\client\plugins\hallowedhelper\HallowedHelperPlugin$1.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$AchievementDiaryScroll.class
+net\runelite\client\plugins\runecraft\EssencePouchOverlay$EssPouch$1.class
 net\runelite\client\plugins\nex\WidgetIDExt$GrandExchange.class
 net\runelite\client\plugins\AoeWarn\OverlayUtil.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$AchievementDiary.class
@@ -359,7 +371,6 @@ net\runelite\client\plugins\AoeWarn\GraphicIDExtended.class
 net\runelite\client\plugins\timersandbuffs\BuffCounter.class
 net\runelite\client\plugins\kotoriutils\methods\VarUtilities$1.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$TemporossStatus.class
-net\runelite\client\plugins\demonicgorillas\DemonicGorillaOverlay.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$KillLog.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Music.class
 net\runelite\client\plugins\zulrahoverlay\rotationutils\ZulrahPhase.class
@@ -368,10 +379,11 @@ net\runelite\client\plugins\banktags\tabs\AutoLayout.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$FairyRing.class
 net\runelite\client\plugins\zulrahoverlay\constants\ZulrahLocation.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$ResizableViewportBottomLine.class
-net\runelite\client\plugins\demonicgorillas\DemonicGorillaPlugin$1.class
+net\runelite\client\plugins\itemstats\potions\StatEffect$1.class
 net\runelite\client\plugins\zulrahoverlay\overlays\PrayerHelperOverlay$1.class
 net\runelite\client\plugins\hallowedsepulchre\HallowedSepulchreConfig$HighlightMode.class
 net\runelite\client\plugins\zulrahoverlay\rotationutils\ZulrahData.class
+net\runelite\client\ui\UnitFormatterFactory.class
 net\runelite\client\plugins\kotoriutils\KotoriUtils.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$BarbarianAssault$ATK.class
 net\runelite\client\plugins\hallowedsepulchre\HallowedSepulchreConfig$RenderDistance.class
@@ -380,6 +392,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$AncientSpellBook.class
 net\runelite\client\plugins\inferno\InfernoPlugin$1.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$BarbarianAssault$HLR.class
 net\runelite\client\plugins\toa\Warden\WardenPrayerBoxOverlay.class
+net\runelite\client\ui\UnitFormatter.class
 net\runelite\client\plugins\zulrahoverlay\constants\ZulrahType.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus.class
 net\runelite\client\plugins\hallowedhelper\HallowedSepulchreWizardStatue.class
@@ -398,6 +411,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$SlayerRewards.class
 net\runelite\client\plugins\kotoriutils\methods\PrayerInteractions$1.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$ArceuusSpellBook.class
 net\runelite\client\plugins\kotoriutils\gson\Hooks.class
+net\runelite\client\plugins\itemprices\ItemPricesPlugin$1.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$VarrockMuseum.class
 net\runelite\client\plugins\nex\WidgetIDExt$FriendList.class
 net\runelite\client\plugins\toa\Util\InfoBoxComponent.class
@@ -429,7 +443,6 @@ net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Shop.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$PestControl.class
 net\runelite\client\plugins\coxhelper\Olm.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Emotes.class
-net\runelite\client\plugins\demonicgorillas\DemonicGorilla.class
 net\runelite\client\plugins\nex\NexPrayerOverlay.class
 net\runelite\client\plugins\toa\Akkha\Akkha.class
 net\runelite\client\plugins\nex\WidgetIDExt.class
@@ -444,6 +457,7 @@ net\runelite\client\plugins\nex\timer\TickTimer.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$GrandExchangeInventory.class
 net\runelite\client\plugins\nightmare\NightmarePrayerInfoBox.class
 net\runelite\client\plugins\hallowedhelper\HallowedHelperInfoPanel.class
+net\runelite\client\plugins\usernotifier\UserNotifierConfig.class
 net\runelite\client\plugins\inferno\InfernoNPC$Type.class
 net\runelite\client\config\Serializer.class
 net\runelite\client\plugins\kotoriutils\rlapi\table\TableComponent.class
@@ -467,6 +481,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$Trade.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Pvp.class
 net\runelite\client\plugins\playerlogger\PlayerLoggerPanel$2.class
 net\runelite\client\plugins\AoeWarn\AoeWarningConfig$VorkathMode.class
+net\runelite\client\plugins\itemstats\special\SunlightMoth.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$DialogSprite.class
 net\runelite\client\plugins\nightmare\TotemPhase.class
 net\runelite\client\plugins\AoeWarn\AoeWarningPlugin.class
@@ -475,6 +490,7 @@ net\runelite\client\plugins\kotoriutils\gson\HookInfo.class
 net\runelite\client\plugins\toa\ToaPlugin.class
 net\runelite\client\plugins\nex\WidgetInfoExt.class
 net\runelite\client\plugins\nex\WidgetIDExt$DestroyItem.class
+net\runelite\client\plugins\itemstats\potions\StatEffect.class
 net\runelite\client\plugins\kotoriutils\rlapi\table\TableAlignment.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Trade.class
 net\runelite\client\plugins\usernotifier\UserNotifierPanel.class
@@ -512,6 +528,7 @@ net\runelite\client\plugins\nex\WidgetIDExt$LmsKDA.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$PuzzleBox.class
 net\runelite\client\plugins\zulrahoverlay\ZulrahConfig$SnakelingSettings.class
 net\runelite\client\plugins\nex\NexPlugin$1.class
+net\runelite\client\plugins\xptracker\XpInfoBox$2.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$QuestList.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$Chatbox.class
 net\runelite\client\plugins\coxhelper\GraphicID.class
@@ -520,13 +537,11 @@ net\runelite\client\plugins\nex\WidgetIDExt$TrailblazerAreas.class
 net\runelite\client\plugins\nex\WidgetIDExt$Music.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Skotizo.class
 net\runelite\client\plugins\kotoriutils\methods\PrayerInteractions.class
-net\runelite\client\plugins\demonicgorillas\DemonicGorillaPlugin.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$GuidePrices.class
 net\runelite\client\plugins\skillcalculator\skills\FiremakingAction$FiremakingMethod.class
 net\runelite\client\plugins\toa\Prayer\WidgetInfoExt.class
 net\runelite\client\plugins\nex\NexPrayerInfoBox.class
 net\runelite\client\plugins\coxhelper\TableElement$TableElementBuilder.class
-net\runelite\client\plugins\demonicgorillas\DemonicGorilla$AttackStyle.class
 net\runelite\client\plugins\nex\WidgetIDExt$ClanGuest.class
 net\runelite\client\plugins\kotoriutils\rlapi\WidgetIDPlus$Pvp.class
 net\runelite\client\plugins\nex\WidgetIDExt$LightBox.class
@@ -536,6 +551,8 @@ net\runelite\client\plugins\AoeWarn\CrystalBomb.class
 net\runelite\client\plugins\toa\Util\NPCCompositionHeadIcon.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$DialogNPC.class
 net\runelite\client\plugins\zulrahoverlay\rotationutils\ZulrahNpc.class
+net\runelite\client\plugins\banktags\tabs\PotionStorage.class
+net\runelite\client\plugins\banktags\tabs\Potion.class
 net\runelite\client\plugins\toa\Scarabas\ScarabasOverlay.class
 net\runelite\client\plugins\nex\WidgetIDExt$GenericScroll.class
 net\runelite\client\plugins\toa\Baba\Baba.class
@@ -554,7 +571,6 @@ net\runelite\client\plugins\nightmare\WidgetIDExt$Smithing.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$Barrows.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$VolcanicMine.class
 net\runelite\client\plugins\toa\reflectMeth.class
-net\runelite\client\plugins\demonicgorillas\MemorizedPlayer.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$DialogPlayer.class
 net\runelite\client\plugins\nightmare\WidgetIDExt$ExperienceTracker.class
 net\runelite\client\plugins\hallowedsepulchre\HallowedSepulchreOverlay.class
@@ -589,4 +605,3 @@ net\runelite\client\plugins\nightmare\NightmareOverlay.class
 net\runelite\client\plugins\config\NotificationPanel$1.class
 net\runelite\client\plugins\toa\Prayer\WidgetIDExt$WorldSwitcher.class
 net\runelite\client\plugins\inferno\InfernoConfig$FontStyle.class
-net\runelite\client\plugins\banktags\BankTagsPlugin$1.class
