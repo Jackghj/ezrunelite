@@ -1,5 +1,9 @@
-https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11021/jdk-11.0.21_windows-x64_bin.exe
 
+Den her: https://file.duol.uz/HFS/SOFT/jdk-11.0.22_windows-x64_bin.exe?dl
+
+
+
+https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11021/jdk-11.0.21_windows-x64_bin.exe
 
 Download https://files02.tchspt.com/down/jdk-11.0.21_windows-x64_bin.exe before running
 
