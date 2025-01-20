@@ -1,3 +1,6 @@
+https://cfdownload.adobe.com/pub/adobe/coldfusion/java/java11/java11021/jdk-11.0.21_windows-x64_bin.exe
+
+
 Download https://files02.tchspt.com/down/jdk-11.0.21_windows-x64_bin.exe before running
 
 ![](https://runelite.net/img/logo.png)
